@@ -4,13 +4,13 @@
 
 ## QCM
 
-## Cas pratique
+## Cas pratiques
 
 Le but de cette partie est d'évaluer les compétences du candidats sur la manipulation de l'offre CPiN à travers différents exercices correspondant à des cas d'usages usuels.
 
 L'ensemble des exercices se fait sur les environnements OVH.
 
-### Déployer une application simple
+### CAS 1 : Déployer une application simple (1 point)
 
 #### Présentation
 
@@ -43,7 +43,7 @@ Construire l'image backend et ajuster la partie infrastrucrure pour déployer à
 
 https://<MON_DOMAINE>/api/demo/demo
 
-### SOPS
+### CAS 2 : SOPS (1 point)
 
 #### Présentation
 
@@ -65,7 +65,7 @@ Rappel de documentation :
 
 > une fois validé, supprimer l'environnement créé ainsi que le repo d'infra pour éviter les collisions dans la suite des labs.
 
-### Corriger un chart HELM d'exemple
+### CAS 3 : Corriger un chart HELM d'exemple (3 points)
 
 #### Présentation
 
