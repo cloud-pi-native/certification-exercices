@@ -59,7 +59,7 @@ Utiliser SOPS pour créer un secret contenant l'utilisateur et le mot de passe d
 
 Rappel de documentation : 
  - gestion des secrets : https://cloud-pi-native.fr/guide/secrets-management.html
- - documentation interne projet : [https://gitlab.apps.c6.numerique-interieur.com/forge-mi/transverse/documentation-dso-projets-interne](https://gitlab.apps.dso.numerique-interieur.com/forge-mi/transverse/documentation-dso-projets-interne)
+ - documentation interne projet : https://gitlab.apps.dso.numerique-interieur.com/forge-mi/transverse/documentation-dso-projets-interne
 
 > Demander aux examinateurs de confirmer la bonne modification des secrets. 
 
