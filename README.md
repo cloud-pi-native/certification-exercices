@@ -27,7 +27,7 @@ Objectifs :
 
 #### Exercice
 
-Créer un projet sur la console préfixé par "crt-" puis vos initiales. Ajouter les examinateurs avec des droits de lecture sur le projet et les environnements créés.
+Créer un projet sur la console préfixé par "crt" puis vos initiales. Ajouter les examinateurs avec des droits de lecture sur le projet et les environnements créés.
 
 Ajouter les repos de code suivants (en faire un fork ou créer une branche dédié du type : "certification/nom_candidat")
 
