@@ -29,14 +29,15 @@ Objectifs :
 
 Créer un projet sur la console préfixé par "crt" puis vos initiales. Ajouter les examinateurs avec des droits de lecture sur le projet et les environnements créés.
 
-Ajouter les repos de code suivants (en faire un fork ou créer une branche dédié du type : "certification/nom_candidat")
+Ajouter les repos de code suivants :
 
  - Repo applicatif : https://github.com/cloud-pi-native/tuto-java
  - Repo infra : https://github.com/cloud-pi-native/tuto-java-infra-manifest
 
-Construire l'image backend et ajuster la partie infrastrucrure pour déployer à partir de déjà existants :
- - un ingress sur une URL conforme à DSO sur OVH
+Construire l'image backend et ajuster la partie infrastructure pour déployer :
+ - un ingress sur une URL conforme à DSO sur OVH sur le cluster de formation
  - un service
+ - un secret
  - un déploiement pour l'application Java
 
 > Demander aux examinateurs de confirmer le bon déploiement avant de passer à la suite. La confirmation se fait via l'URL :
@@ -55,7 +56,13 @@ Objectifs:
 
 #### Exercice
 
-Utiliser SOPS pour créer un secret contenant l'utilisateur et le mot de passe de la base de données puis modifier le deploiement pour utiliser ce secret à la place des variables en dur du déploiement.
+Dans le déploiement précédent le secret est en dur ce qui est une mauvaise pratique et cet exercice vise à modifier cela.
+
+Utiliser SOPS pour remplacer le secret du repo d'infra de l'exercice précédent par un SOPSSecret avec les mêmes valeurs :
+```
+  POSTGRES_USER: userdemomanifest
+  POSTGRES_PASSWORD: My$ecrETPAss0rd*
+```
 
 Rappel de documentation : 
  - gestion des secrets : https://cloud-pi-native.fr/guide/secrets-management.html
