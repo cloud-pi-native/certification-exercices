@@ -31,8 +31,8 @@ Créer un projet sur la console préfixé par "crt" puis vos initiales. Ajouter 
 
 Ajouter les repos de code suivants :
 
- - Repo applicatif : https://github.com/cloud-pi-native/tuto-java
- - Repo infra : https://github.com/cloud-pi-native/tuto-java-infra-manifest
+ - Repo applicatif : https://github.com/cloud-pi-native/tuto-java (prendre la branche master)
+ - Repo infra : https://github.com/cloud-pi-native/tuto-java-infra-manifest  (prendre la branche scw)
 
 Construire l'image backend et ajuster la partie infrastructure pour déployer :
  - un ingress sur une URL conforme à DSO sur OVH sur le cluster de formation
@@ -66,7 +66,7 @@ Utiliser SOPS pour remplacer le secret du repo d'infra de l'exercice précédent
 
 Rappel de documentation : 
  - gestion des secrets : https://cloud-pi-native.fr/guide/secrets-management.html
- - documentation interne projet : https://gitlab.apps.dso.numerique-interieur.com/forge-mi/transverse/documentation-dso-projets-interne
+ - documentation interne projet : https://gitlab.apps.dso.numerique-interieur.com/forge-mi/transverse/documentation-dso-projets-interne ou https://gitlab.formation.cpin.numerique-interieur.com/transverse/documentation-dso-projets-interne
 
 > Demander aux examinateurs de confirmer la bonne modification des secrets. 
 
@@ -85,7 +85,7 @@ Objectifs:
 
 ### Exercice
 
-Ajouter le repo contenant le chart HELM : https://github.com/cloud-pi-native/helm-cert (en faire un fork ou créer une branche dédié du type : "certification/nom_candidat") et l'intégrer à son projet CPiN.
+Ajouter le repo contenant le chart HELM : https://github.com/cloud-pi-native/helm-cert (branche scw) et l'intégrer à son projet CPiN.
 
 Créer un nouvel environnement nommé lab2 de type small pour débuter ce lab.
 
