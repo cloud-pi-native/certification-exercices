@@ -31,7 +31,7 @@ Créer un projet sur la console préfixé par "crt" puis vos initiales. Ajouter 
 
 Ajouter les repos de code suivants :
 
- - Repo applicatif : https://github.com/cloud-pi-native/tuto-java (prendre la branche master)
+ - Repo applicatif : https://github.com/cloud-pi-native/tuto-java (prendre la branche main)
  - Repo infra : https://github.com/cloud-pi-native/tuto-java-infra-manifest  (prendre la branche scw)
 
 Construire l'image backend et ajuster la partie infrastructure pour déployer :
